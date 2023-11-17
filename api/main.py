@@ -36,12 +36,12 @@ class TestRecipeRetriever:
             {
                 'title': self.sample1['title'],
                 'ingredient': self.sample1['ingredients'],
-                'url': self.sample1['title'],
+                'url': self.sample1['url'],
             },
             {
                 'title': self.sample2['title'],
                 'ingredient': self.sample2['ingredients'],
-                'url': self.sample2['title'],
+                'url': self.sample2['url'],
             }
         ]
 
