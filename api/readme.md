@@ -93,31 +93,31 @@ uvicorn main:app
     ```
 
 - response sample
-```json
-{
-  "recipes": [
+    ```json
     {
-      "title": "가지볶음보다 맛있는 가지 스테이크 맛보면 멈출 수 없어요.",
-      "ingredient": [
-        "가지 1개",
-        ...
-        "버터 2Ts"
-      ],
-      "url": "https://www.10000recipe.com/recipe/6963110"
-    },
-    {
-      "title": "돼지고기 김치찌개 달인이 되는 황금레시피",
-      "ingredient": [
-        "돼지고기 앞다리살 500g",
-        ...
-        "후추 2꼬집"
-      ],
-      "url": "https://www.10000recipe.com/recipe/6961294"
+      "recipes": [
+        {
+          "title": "가지볶음보다 맛있는 가지 스테이크 맛보면 멈출 수 없어요.",
+          "ingredient": [
+            "가지 1개",
+            ...
+            "버터 2Ts"
+          ],
+          "url": "https://www.10000recipe.com/recipe/6963110"
+        },
+        {
+          "title": "돼지고기 김치찌개 달인이 되는 황금레시피",
+          "ingredient": [
+            "돼지고기 앞다리살 500g",
+            ...
+            "후추 2꼬집"
+          ],
+          "url": "https://www.10000recipe.com/recipe/6961294"
+        }
+      ]
     }
-  ]
-}
-
-```
+    
+    ```
 
 
 
