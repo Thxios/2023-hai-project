@@ -26,14 +26,14 @@ uvicorn main:app
 
     | field | value                |description|
     |-------|----------------------|---|
-    | image | base64 encoded image |query image|
+    | `image` | base64 encoded image |query image|
 
 - response json
 
     | field | value               |description|
     |-------|---------------------|--|
-    | bbox | base64 encoded image|query image with bounding box|
-    | ingredient| array of strings|detected ingredients|
+    | `bbox` | base64 encoded image|query image with bounding box|
+    | `ingredient`| array of strings|detected ingredients|
 
 - request sample
     ```json
@@ -64,20 +64,20 @@ uvicorn main:app
 
     | field      | value           | description         |
     |------------|-----------------|---------------------|
-    | ingredient | array of strings | list of ingredients |
+    | `ingredient` | array of strings | list of ingredients |
 
 - response json
 
     | field   | value        | description       |
     |---------|--------------|-------------------|
-    | recipes | array of json | retrieved recipes |
+    | `recipes` | array of json | retrieved recipes |
   - recipe json
 
     | field | value            | description        |
     |-------|------------------|--------------------|
-    | title | string           | recipe title       |
-    | ingredient | array of strings | list of ingredients         |
-    | url   | string           | recipe article url |
+    | `title` | string           | recipe title       |
+    | `ingredient` | array of strings | list of ingredients         |
+    | `url`   | string           | recipe article url |
     
 
 
