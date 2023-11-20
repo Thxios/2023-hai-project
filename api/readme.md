@@ -68,9 +68,10 @@ uvicorn main:app
 
 - response json
 
-    | field   | value        | description       |
-    |---------|--------------|-------------------|
-    | `recipes` | array of json | retrieved recipes |
+    | field     | value          | description               |
+    |-----------|----------------|---------------------------|
+    | `recipes` | array of json  | retrieved recipes         |
+    |  `k`        | int (optional) | maximum number of recipes |
   - recipe json
 
     | field | value            | description        |
@@ -85,10 +86,11 @@ uvicorn main:app
     ```json
     {
       "ingredient": [
-        "과일", 
-        "사과", 
-        "배"
-      ]
+        "mayonnaise", 
+        "mozzarella_cheese", 
+        "bread"
+      ],
+      "k": 2
     }
     ```
 
@@ -97,26 +99,34 @@ uvicorn main:app
     {
       "recipes": [
         {
-          "title": "가지볶음보다 맛있는 가지 스테이크 맛보면 멈출 수 없어요.",
+          "title": "모닝빵콘치즈 간단간식 ",
           "ingredient": [
-            "가지 1개",
-            ...
-            "버터 2Ts"
+            "모닝빵 6개",
+            "옥수수 콘 1컵",
+            "마요네즈 1스푼",
+            "허니 머스터드 1스푼",
+            "후춧가루 약간",
+            "피자치즈 70g"
           ],
-          "url": "https://www.10000recipe.com/recipe/6963110"
+          "url": "https://www.10000recipe.com/recipe/6881806"
         },
         {
-          "title": "돼지고기 김치찌개 달인이 되는 황금레시피",
+          "title": "참치롤샌드위치 만들기 ",
           "ingredient": [
-            "돼지고기 앞다리살 500g",
-            ...
-            "후추 2꼬집"
+            "식빵 6장",
+            "참치캔 1/2통",
+            "오이 1/2개",
+            "햄 약간",
+            "양파 약간",
+            "마요네즈 1+1/2숟갈",
+            "백후추 약간",
+            "마요네즈 1숟갈",
+            "머스터드 소스 1/2숟갈"
           ],
-          "url": "https://www.10000recipe.com/recipe/6961294"
+          "url": "https://www.10000recipe.com/recipe/3687411"
         }
       ]
     }
-    
     ```
 
 

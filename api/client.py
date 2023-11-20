@@ -26,7 +26,7 @@ def recipe_send():
 
     req = {
         'ingredient': ['mayonnaise', 'mozzarella_cheese', 'bread'],
-        'k': 3,
+        'k': 2,
     }
     resp = requests.post('http://127.0.0.1:8000/recipe', json=req).json()
     # print(json.dumps(req, indent=2, ensure_ascii=False))
@@ -40,8 +40,8 @@ def get_list_all():
 
 
 # detect_send()
-# recipe_send()
-get_list_all()
+recipe_send()
+# get_list_all()
 
 
 

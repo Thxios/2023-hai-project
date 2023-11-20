@@ -90,7 +90,7 @@ async def post_detect(req: DetectQuery):
 
 class RecipeQuery(pydantic.BaseModel):
     ingredient: List[str]
-    k: Optional[int] = 5
+    k: Optional[int] = 3
 
 
 @app.post('/recipe')
