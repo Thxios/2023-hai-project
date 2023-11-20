@@ -2,6 +2,8 @@
 import requests
 import base64
 import json
+from PIL import Image
+import io
 
 
 def detect_send():
@@ -11,20 +13,24 @@ def detect_send():
     req = {
         'image': base64.b64encode(img_content).decode('utf-8')
     }
-    resp = requests.post('http://127.0.0.1:8000/detect', json=req)
+    resp = requests.post('http://127.0.0.1:8000/detect', json=req).json()
+
+    img = Image.open(io.BytesIO(base64.b64decode(resp['bbox'])))
+    img.save('resp.png')
 
     # print(json.dumps(req, indent=2, ensure_ascii=False))
-    print(json.dumps(resp.json(), indent=2, ensure_ascii=False))
+    print(json.dumps(resp, indent=2, ensure_ascii=False))
 
 
 def recipe_send():
 
     req = {
-        'ingredient': ['과일', '사과', '배'],
+        'ingredient': ['mayonnaise', 'mozzarella_cheese', 'bread'],
+        'k': 3,
     }
-    resp = requests.post('http://127.0.0.1:8000/recipe', json=req)
+    resp = requests.post('http://127.0.0.1:8000/recipe', json=req).json()
     # print(json.dumps(req, indent=2, ensure_ascii=False))
-    print(json.dumps(resp.json(), indent=2, ensure_ascii=False))
+    print(json.dumps(resp, indent=2, ensure_ascii=False))
 
 
 # detect_send()

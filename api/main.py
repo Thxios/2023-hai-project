@@ -3,11 +3,12 @@
 import base64
 import json
 import io
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI
 from PIL import Image, ImageDraw
-import logging
-from typing import List
+from typing import List, Optional
 import pydantic
+
+from recipe.search import FindRecipe
 
 
 
@@ -48,7 +49,11 @@ class TestRecipeRetriever:
 
 
 detector = TestDetector()
-recipe_retriever = TestRecipeRetriever()
+# recipe_retriever = TestRecipeRetriever()
+recipe_retriever = FindRecipe.load_from_file(
+    'recipe/recipe_ingredient_mapped.jsonl',
+    'recipe/detection_ingredient_class.json'
+)
 
 
 app = FastAPI()
@@ -56,7 +61,14 @@ app = FastAPI()
 @app.get('/')
 def get_root_test():
     return {
-        'get': 'get2'
+        'running': True
+    }
+
+
+@app.get('/possible_ingredients')
+def get_all_possible_ingredients_list():
+    return {
+        'ingredient': recipe_retriever.classes
     }
 
 
@@ -78,11 +90,13 @@ async def post_detect(req: DetectQuery):
 
 class RecipeQuery(pydantic.BaseModel):
     ingredient: List[str]
+    k: Optional[int] = 5
 
 
 @app.post('/recipe')
 async def post_recipe(req: RecipeQuery):
-    ret = recipe_retriever.process(req.ingredient)
+    # ret = recipe_retriever.process(req.ingredient)
+    ret = recipe_retriever.find(req.ingredient, req.k)
     return {
         'recipes': ret
     }
