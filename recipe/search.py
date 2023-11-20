@@ -3,9 +3,6 @@ import json
 import schema
 
 
-
-
-
 class FindRecipe:
     recipes_schema = schema.Schema(
         [
@@ -21,11 +18,13 @@ class FindRecipe:
             }
         ]
     )
+
     classes_schema = schema.Schema(
         [
             str
         ]
     )
+
 
     def __init__(self, recipes, classes):
         self.recipes = self.recipes_schema.validate(recipes)
