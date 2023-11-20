@@ -33,8 +33,15 @@ def recipe_send():
     print(json.dumps(resp, indent=2, ensure_ascii=False))
 
 
+def get_list_all():
+
+    resp = requests.get('http://127.0.0.1:8000/list_ingredient').json()
+    print(json.dumps(resp, indent=2, ensure_ascii=False))
+
+
 # detect_send()
-recipe_send()
+# recipe_send()
+get_list_all()
 
 
 

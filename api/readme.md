@@ -120,4 +120,28 @@ uvicorn main:app
     ```
 
 
+### List all Ingredients
+
+- Method : `GET`
+- Path : `/list_ingredient`
+- response json
+
+    | field   | value            | description                      |
+    |---------|------------------|----------------------------------|
+    | `ingredient` | array of strings | list of all possible ingredients |
+
+- response sample
+
+    ```json
+    {
+      "ingredient": [
+        "apple",
+        "avocado",
+        ...
+        "lemon_juice",
+        "red_wine"
+      ]
+    }
+    ```
+
 

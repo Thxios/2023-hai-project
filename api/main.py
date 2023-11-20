@@ -65,7 +65,7 @@ def get_root_test():
     }
 
 
-@app.get('/possible_ingredients')
+@app.get('/list_ingredient')
 def get_all_possible_ingredients_list():
     return {
         'ingredient': recipe_retriever.classes
