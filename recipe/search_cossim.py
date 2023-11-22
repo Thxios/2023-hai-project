@@ -27,7 +27,7 @@ class FindRecipeCosSim(BaseRecipeRetriever):
         return np.array([1 if ig in ings else 0 for ig in self.support])
 
 
-    def find(self, having_ings, k=5):
+    def process(self, having_ings, k=5):
         having_ings = self.filter_ingredients(having_ings)
         query = self.make_one_hot(having_ings).reshape((1, -1))
         if np.sum(query) == 0:

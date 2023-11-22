@@ -4,7 +4,7 @@ from recipe.base import BaseRecipeRetriever
 
 class FindRecipe(BaseRecipeRetriever):
 
-    def find(self, having_ings, k=5):
+    def process(self, having_ings, k=5):
         having_ings = self.filter_ingredients(having_ings)
 
         # 레시피 리스트 초기화
