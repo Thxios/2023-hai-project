@@ -1,5 +1,5 @@
 
-from base import BaseRecipeRetriever
+from recipe.base import BaseRecipeRetriever
 
 
 class FindRecipe(BaseRecipeRetriever):

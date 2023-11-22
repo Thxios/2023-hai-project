@@ -1,7 +1,8 @@
 
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from base import BaseRecipeRetriever
+
+from recipe.base import BaseRecipeRetriever
 
 
 
