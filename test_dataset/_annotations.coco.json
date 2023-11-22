@@ -1,0 +1,1185 @@
+{
+    "info": {
+        "year": "2022",
+        "version": "3",
+        "description": "Exported from roboflow.ai",
+        "contributor": "",
+        "url": "https://public.roboflow.ai/object-detection/undefined",
+        "date_created": "2022-08-29T10:10:18+00:00"
+    },
+    "licenses": [
+        {
+            "id": 1,
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "name": "CC BY 4.0"
+        }
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "food-ingredients",
+            "supercategory": "none"
+        },
+        {
+            "id": 1,
+            "name": "Kochujang",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 2,
+            "name": "apple",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 3,
+            "name": "avocado",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 4,
+            "name": "bacon",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 5,
+            "name": "banana",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 6,
+            "name": "beef",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 7,
+            "name": "bread",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 8,
+            "name": "burdock",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 9,
+            "name": "butter",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 10,
+            "name": "cabbage",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 11,
+            "name": "canned_corn",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 12,
+            "name": "canned_tuna",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 13,
+            "name": "carrot",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 14,
+            "name": "cheese",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 15,
+            "name": "chicken",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 16,
+            "name": "chili_powder",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 17,
+            "name": "chocolate_bread",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 18,
+            "name": "cinnamon",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 19,
+            "name": "cooking_oil",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 20,
+            "name": "corn",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 21,
+            "name": "cornflake",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 22,
+            "name": "crab_meat",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 23,
+            "name": "cucumber",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 24,
+            "name": "curry_powder",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 25,
+            "name": "dumpling",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 26,
+            "name": "egg",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 27,
+            "name": "fish_cake",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 28,
+            "name": "french_fries",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 29,
+            "name": "garlic",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 30,
+            "name": "ginger",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 31,
+            "name": "green_onion",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 32,
+            "name": "ham",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 33,
+            "name": "hash_brown",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 34,
+            "name": "hotdog",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 35,
+            "name": "ice",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 36,
+            "name": "ketchup",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 37,
+            "name": "kimchi",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 38,
+            "name": "lemon",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 39,
+            "name": "lemon_juice",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 40,
+            "name": "mandarin",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 41,
+            "name": "marshmallow",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 42,
+            "name": "mayonnaise",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 43,
+            "name": "milk",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 44,
+            "name": "mozzarella cheese",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 45,
+            "name": "mushroom",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 46,
+            "name": "mustard",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 47,
+            "name": "nacho_chips",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 48,
+            "name": "noodle",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 49,
+            "name": "nutella",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 50,
+            "name": "olive_oil",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 51,
+            "name": "onion",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 52,
+            "name": "oreo",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 53,
+            "name": "parmasan_cheese",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 54,
+            "name": "parsley",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 55,
+            "name": "pasta",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 56,
+            "name": "peanut_butter",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 57,
+            "name": "pear",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 58,
+            "name": "pepper",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 59,
+            "name": "pepper_powder",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 60,
+            "name": "pickle",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 61,
+            "name": "pickled_radish",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 62,
+            "name": "pimento",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 63,
+            "name": "pineapple",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 64,
+            "name": "pork",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 65,
+            "name": "potato",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 66,
+            "name": "ramen",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 67,
+            "name": "red_wine",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 68,
+            "name": "rice",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 69,
+            "name": "salt",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 70,
+            "name": "sausage",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 71,
+            "name": "seaweed",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 72,
+            "name": "seseme",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 73,
+            "name": "seseme_oil",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 74,
+            "name": "shrimp_paste",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 75,
+            "name": "soy_sauce",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 76,
+            "name": "spam",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 77,
+            "name": "squid",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 78,
+            "name": "strawberry",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 79,
+            "name": "sugar",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 80,
+            "name": "sweet_potato",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 81,
+            "name": "tofu",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 82,
+            "name": "tomato",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 83,
+            "name": "wasabi",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 84,
+            "name": "watermelon",
+            "supercategory": "food-ingredients"
+        },
+        {
+            "id": 85,
+            "name": "whipping_cream",
+            "supercategory": "food-ingredients"
+        }
+    ],
+    "images": [
+        {
+            "id": 0,
+            "license": 1,
+            "file_name": "022_PNG.rf.62b5f112e2d57224cf0246719e37a764.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 1,
+            "license": 1,
+            "file_name": "073_PNG.rf.53d4844d61aa2cebc9b0475c558edeb9.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 2,
+            "license": 1,
+            "file_name": "019_jpg.rf.3ef83d45eea830b0f8839594d414c0a2.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 3,
+            "license": 1,
+            "file_name": "004_jpg.rf.e00c7caa9ed0a7089d8c22d86a17fd23.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 4,
+            "license": 1,
+            "file_name": "059_PNG.rf.d9dc700379b1ef7e3327573097ed7b46.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 5,
+            "license": 1,
+            "file_name": "023_PNG.rf.cd29d5617feadb951301f5af6fd2f627.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 6,
+            "license": 1,
+            "file_name": "064_PNG.rf.1a107474f568cafe6e28bbfd91f9de46.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 7,
+            "license": 1,
+            "file_name": "066_PNG.rf.f3fc6eb2e4fd94e9015a5b051bcbe312.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 8,
+            "license": 1,
+            "file_name": "flat-lay-meal-ingredients-arrangement_jpg.rf.567c3485f5e4c4fa42bfac7bbf0498ba.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 9,
+            "license": 1,
+            "file_name": "071_PNG.rf.f8a6412d0d41f635b44d6a690c6f08fa.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        },
+        {
+            "id": 10,
+            "license": 1,
+            "file_name": "034_PNG.rf.fe516761c74ee0f3358731b65977b1a0.jpg",
+            "height": 416,
+            "width": 416,
+            "date_captured": "2022-08-29T10:10:18+00:00"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 0,
+            "image_id": 0,
+            "category_id": 44,
+            "bbox": [
+                252,
+                23,
+                119.5,
+                198
+            ],
+            "area": 23661,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 1,
+            "image_id": 0,
+            "category_id": 4,
+            "bbox": [
+                11,
+                31,
+                204,
+                187
+            ],
+            "area": 38148,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 0,
+            "category_id": 14,
+            "bbox": [
+                292,
+                156,
+                121.5,
+                169.5
+            ],
+            "area": 20594.25,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 0,
+            "category_id": 7,
+            "bbox": [
+                162,
+                210,
+                137,
+                204.5
+            ],
+            "area": 28016.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 1,
+            "category_id": 10,
+            "bbox": [
+                173,
+                16,
+                103,
+                148.5
+            ],
+            "area": 15295.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 5,
+            "image_id": 1,
+            "category_id": 51,
+            "bbox": [
+                290,
+                39,
+                75.5,
+                111.5
+            ],
+            "area": 8418.25,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 6,
+            "image_id": 1,
+            "category_id": 66,
+            "bbox": [
+                37,
+                28,
+                145.5,
+                193
+            ],
+            "area": 28081.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 7,
+            "image_id": 1,
+            "category_id": 26,
+            "bbox": [
+                269,
+                118,
+                53,
+                70
+            ],
+            "area": 3710,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 8,
+            "image_id": 1,
+            "category_id": 42,
+            "bbox": [
+                278,
+                169,
+                94.5,
+                232
+            ],
+            "area": 21924,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 9,
+            "image_id": 1,
+            "category_id": 75,
+            "bbox": [
+                187,
+                238,
+                76,
+                124
+            ],
+            "area": 9424,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 10,
+            "image_id": 1,
+            "category_id": 31,
+            "bbox": [
+                87,
+                239,
+                87.5,
+                126.5
+            ],
+            "area": 11068.75,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 11,
+            "image_id": 2,
+            "category_id": 75,
+            "bbox": [
+                186,
+                56,
+                48,
+                69
+            ],
+            "area": 3312,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 12,
+            "image_id": 2,
+            "category_id": 31,
+            "bbox": [
+                211,
+                25,
+                164,
+                232
+            ],
+            "area": 38048,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 13,
+            "image_id": 2,
+            "category_id": 45,
+            "bbox": [
+                284,
+                179,
+                108,
+                126
+            ],
+            "area": 13608,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 14,
+            "image_id": 2,
+            "category_id": 58,
+            "bbox": [
+                237,
+                192,
+                48.5,
+                127
+            ],
+            "area": 6159.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 15,
+            "image_id": 2,
+            "category_id": 51,
+            "bbox": [
+                263,
+                259,
+                47,
+                73.5
+            ],
+            "area": 3454.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 16,
+            "image_id": 2,
+            "category_id": 6,
+            "bbox": [
+                78,
+                248,
+                117.5,
+                121
+            ],
+            "area": 14217.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 17,
+            "image_id": 3,
+            "category_id": 68,
+            "bbox": [
+                40,
+                47,
+                71.5,
+                130
+            ],
+            "area": 9295,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 18,
+            "image_id": 3,
+            "category_id": 31,
+            "bbox": [
+                216,
+                71,
+                78.5,
+                130.5
+            ],
+            "area": 10244.25,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 19,
+            "image_id": 3,
+            "category_id": 37,
+            "bbox": [
+                301,
+                211,
+                74.5,
+                124
+            ],
+            "area": 9238,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 20,
+            "image_id": 3,
+            "category_id": 51,
+            "bbox": [
+                175,
+                242,
+                52,
+                93
+            ],
+            "area": 4836,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 21,
+            "image_id": 3,
+            "category_id": 76,
+            "bbox": [
+                93,
+                291,
+                82.5,
+                109
+            ],
+            "area": 8992.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 22,
+            "image_id": 4,
+            "category_id": 44,
+            "bbox": [
+                164,
+                26,
+                115,
+                142.5
+            ],
+            "area": 16387.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 23,
+            "image_id": 4,
+            "category_id": 14,
+            "bbox": [
+                21,
+                170,
+                145.5,
+                101.5
+            ],
+            "area": 14768.25,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 24,
+            "image_id": 4,
+            "category_id": 20,
+            "bbox": [
+                179,
+                216,
+                110,
+                158
+            ],
+            "area": 17380,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 25,
+            "image_id": 4,
+            "category_id": 51,
+            "bbox": [
+                26,
+                277,
+                69,
+                96.5
+            ],
+            "area": 6658.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 26,
+            "image_id": 4,
+            "category_id": 32,
+            "bbox": [
+                82,
+                269,
+                77.5,
+                134
+            ],
+            "area": 10385,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 27,
+            "image_id": 4,
+            "category_id": 68,
+            "bbox": [
+                44,
+                15,
+                104,
+                140
+            ],
+            "area": 14560,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 28,
+            "image_id": 5,
+            "category_id": 80,
+            "bbox": [
+                67,
+                25,
+                286.5,
+                351.5
+            ],
+            "area": 100704.75,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 29,
+            "image_id": 6,
+            "category_id": 7,
+            "bbox": [
+                79,
+                16,
+                230,
+                181.5
+            ],
+            "area": 41745,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 30,
+            "image_id": 6,
+            "category_id": 26,
+            "bbox": [
+                262,
+                191,
+                111.5,
+                157.5
+            ],
+            "area": 17561.25,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 31,
+            "image_id": 6,
+            "category_id": 9,
+            "bbox": [
+                144,
+                223,
+                65.5,
+                116.5
+            ],
+            "area": 7630.75,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 32,
+            "image_id": 7,
+            "category_id": 68,
+            "bbox": [
+                230,
+                49,
+                96.5,
+                140.5
+            ],
+            "area": 13558.25,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 33,
+            "image_id": 7,
+            "category_id": 37,
+            "bbox": [
+                89,
+                41,
+                122,
+                157
+            ],
+            "area": 19154,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 34,
+            "image_id": 7,
+            "category_id": 31,
+            "bbox": [
+                221,
+                232,
+                124,
+                175
+            ],
+            "area": 21700,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 35,
+            "image_id": 7,
+            "category_id": 64,
+            "bbox": [
+                95,
+                246,
+                102,
+                150.5
+            ],
+            "area": 15351,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 36,
+            "image_id": 8,
+            "category_id": 26,
+            "bbox": [
+                175,
+                45,
+                179.5,
+                98
+            ],
+            "area": 17591,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 37,
+            "image_id": 8,
+            "category_id": 13,
+            "bbox": [
+                0,
+                17,
+                156,
+                161
+            ],
+            "area": 25116,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 38,
+            "image_id": 8,
+            "category_id": 26,
+            "bbox": [
+                165,
+                150,
+                81,
+                56.5
+            ],
+            "area": 4576.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 39,
+            "image_id": 8,
+            "category_id": 9,
+            "bbox": [
+                17,
+                197,
+                87,
+                57.5
+            ],
+            "area": 5002.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 40,
+            "image_id": 9,
+            "category_id": 26,
+            "bbox": [
+                70,
+                63,
+                111,
+                146.5
+            ],
+            "area": 16261.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 41,
+            "image_id": 9,
+            "category_id": 9,
+            "bbox": [
+                181,
+                247,
+                79,
+                104.5
+            ],
+            "area": 8255.5,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 42,
+            "image_id": 10,
+            "category_id": 42,
+            "bbox": [
+                231,
+                125,
+                68.5,
+                84
+            ],
+            "area": 5754,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 43,
+            "image_id": 10,
+            "category_id": 59,
+            "bbox": [
+                320,
+                131,
+                54,
+                90
+            ],
+            "area": 4860,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 44,
+            "image_id": 10,
+            "category_id": 11,
+            "bbox": [
+                0,
+                72,
+                124.5,
+                216
+            ],
+            "area": 26892,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 45,
+            "image_id": 10,
+            "category_id": 54,
+            "bbox": [
+                142,
+                84,
+                52.5,
+                228
+            ],
+            "area": 11970,
+            "segmentation": [],
+            "iscrowd": 0
+        }
+    ]
+}
