@@ -3,6 +3,7 @@
 import json
 import schema
 
+
 class BaseRecipeRetriever:
     recipes_schema = schema.Schema(
         [

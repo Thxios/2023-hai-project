@@ -1,7 +1,7 @@
 
-from base import BaseRecipeRetriever
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+from base import BaseRecipeRetriever
 
 
 
@@ -37,17 +37,5 @@ class FindRecipeCosSim(BaseRecipeRetriever):
 
         found = [self.recipes[idx]['recipe'] for _, idx in sim_idx]
         return found
-
-
-if __name__ == '__main__':
-    finder = FindRecipeCosSim.load_from_file(
-        'recipe_ingredient_mapped.jsonl',
-        'detection_ingredient_class.json'
-    )
-
-    sample = ['mayonnaise', 'mozzarella_cheese', 'bread']
-
-    out = finder.find(sample)
-    print(*out, sep='\n')
 
 
