@@ -30,11 +30,10 @@ class FindRecipeCosSim(BaseRecipeRetriever):
     def process(self, having_ings, k=5):
         having_ings = self.filter_ingredients(having_ings)
         query = self.make_one_hot(having_ings).reshape((1, -1))
-        if np.sum(query) == 0:
-            return []
 
         sim = cosine_similarity(self.one_hot_vectors, query).reshape(-1)
-        sim_idx = sorted(zip(sim, range(len(self.recipes))), key=lambda x: x[0], reverse=True)[:k]
+        sim_nonzero = filter(lambda x: x[0] > 0, zip(sim, range(len(self.recipes))))
+        sim_idx = sorted(sim_nonzero, key=lambda x: x[0], reverse=True)[:k]
 
         found = [self.recipes[idx]['recipe'] for _, idx in sim_idx]
         return found

@@ -28,7 +28,8 @@ class TestDetector:
 
 
 detector = TestDetector()
-recipe_retriever = FindRecipe.load_from_file(
+# recipe_retriever = FindRecipe.load_from_file(
+recipe_retriever = FindRecipeCosSim.load_from_file(
     'recipe/recipe_ingredient_mapped.jsonl',
     'recipe/detection_ingredient_class.json'
 )

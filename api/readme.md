@@ -47,10 +47,9 @@ uvicorn main:app
     {
       "bbox": "iVBORw0KGgoAAAA ... ASUVORK5CYII=", 
       "ingredient": [
-        "김치", 
-        "간장", 
-        "밥", 
-        "참치"
+        "mayonnaise", 
+        "mozzarella_cheese", 
+        "bread"
       ]
     }
     ```
