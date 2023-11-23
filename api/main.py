@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw
 from typing import List, Optional
 import pydantic
 from uuid import uuid4
-from detect_ingredients import detect_ingredients
+from detect.detect_ingredients import detect_ingredients
 
 from recipe.search import FindRecipe
 
