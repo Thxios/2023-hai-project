@@ -96,7 +96,8 @@ async def detect(file: UploadFile):
         response_data['bbox'] = base64.b64encode(img_).decode('utf-8')
 
     with open(os.path.join("outputs", f"ingredients_{filename}.json"), "r") as fp:
-        response_data['ingredient'] = fp.readlines()
+        ingredient_list = fp.read()
+        response_data['ingredient'] = json.loads(ingredient_list)        
 
     return response_data
         # return {"filename":filename}
